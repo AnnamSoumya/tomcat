@@ -6,6 +6,6 @@ mkdir /opt/tomcat
 tar -zxvf apache-tomcat-8.0.50.tar.gz -C /opt/tomcat
 cd /opt/tomcat/bin
 sh catalina.sh start
-ps -ef|gerp tomcat
+ps -ef|grep tomcat
 
 
