@@ -1,3 +1,3 @@
 
 
-docker run -i centos
+docker run -it centos
