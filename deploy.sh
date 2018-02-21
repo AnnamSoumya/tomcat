@@ -1,5 +1,5 @@
 #!/bin/sh
-docker run -it centos
+docker run -id centos
 yum install wget -y
 wget http://www-us.apache.org/dist/tomcat/tomcat-8/v8.0.50/bin/apache-tomcat-8.0.50.tar.gz
 mkdir /opt/tomcat   
